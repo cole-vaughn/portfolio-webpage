@@ -14,7 +14,7 @@
 <body>
     <section class="hero">
         <nav>
-            <img class="logo" src="..resources/logo-1.png" alt="My Logo"/>
+            <img class="logo" src="../resources/logo-1.png" alt="My Logo"/>
             <ul>
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -25,12 +25,12 @@
             <div class="hero-text">
                 <h1>Cole Vaughn</h1>
                 <p><span class="auto-type"></span></p>
-                <a href="about.html"><div class="button">About me</div></a>
+                <a href="#about-me"><div class="button">About me</div></a>
             </div>
             <div class="socials">
-                <div class="social"><i class="fa-brands fa-instagram fa-2x"></i></div>
-                <div class="social"><i class="fa-brands fa-github fa-2x"></i></div>
-                <div class="social"><i class="fa-brands fa-linkedin fa-2x"></i></div>
+                <div class="social"><a href="https://www.instagram.com/cole.vaughn._/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></div>
+                <div class="social"><a href="https://github.com/cole-vaughn" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a></div>
+                <div class="social"><a href="https://www.linkedin.com/in/colevaughn/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a></div>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -48,7 +48,9 @@
     <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
-            <p>Hello!! I am a Computer Systems Engineering student at the University of Georgia, and I'm very passionate about software projects, sports, and the current dining hall menu rotation!</p>
+            <p>Hello!! I am a Computer Systems Engineering student at the University of Georgia, and I'm very passionate about sports, developing software skills, and the current dining hall menu rotation!</p>
+            <br>
+            <p>Check out my linkedin to learn a little more about me!</p>
         </div>
         <div class="headshot-container">
             <img class="headshot" src="../resources/business-man.png" alt="My Picture">
@@ -58,32 +60,36 @@
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
-                <img class="project-image" src="../resources/project5.jpeg" alt="Project One Image"/>
-                <h3>Project One</h3>
-                <p class="subtext">This will be one of my future projects.</p>
+                <img class="project-image" src="../resources/acm-mascot-upsized.gif" alt="Project One Image" id="project-one-image"/>
+                <h3>ACM Website</h3>
+                <p class="subtext">
+                    I'm significantly modernizing the organization’s website by deploying and managing it on AWS EC2, streamlining workflows with Node.js and npm, and redesigning the front end with React.js, HTML, CSS, and interactive elements to enhance performance, usability, and user experience.
+                </p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="_" target="_blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://acm-uga.github.io/" target="_blank">View here</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="..resources/project6.jpeg" alt="Project Two Image"/>
-                <h3>Project Two</h3>
-                <p class="subtext">This will be one of my future projects.</p>
+                <img class="project-image" src="../resources/maze-image.jpg" alt="Project Two Image" id="project-two-image"/>
+                <h3>Maze Solver</h3>
+                <p class="subtext">
+                    Designing and implementing a Java-based maze generation and solving system using depth-first search and graph traversal principles, optimizing memory and execution with 2D arrays and stack-based structures, ensuring valid pathfinding with boundary checks, and visualizing real-time generation and solutions through an interactive React front end.
+                </p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="_" target="_blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://github.com/cole-vaughn/Maze-Solver" target="_blank">View here</a></p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="../resources/project7.jpeg" alt="Project Three Image"/>
                 <h3>Project Three</h3>
                 <p class="subtext">This will be one of my future projects.</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="_" target="_blank">View here</a></p>
+                <p class="subtext"><a class="project-link" target="">View here</a></p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="../resources/project8.jpeg" alt="Project Four Image"/>
                 <h3>Project Four</h3>
                 <p class="subtext">This will be one of my future projects.</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="_" target="_blank">View here</a></p>
+                <p class="subtext"><a class="project-link" target="">View here</a></p>
             </div>
         </div>
     </section>
